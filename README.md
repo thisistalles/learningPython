@@ -1,2 +1,2 @@
-# pythonCurso
+# PythonCurso
 **Learning Python!**
