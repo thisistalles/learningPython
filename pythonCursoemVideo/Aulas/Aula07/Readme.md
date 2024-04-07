@@ -1,0 +1,1 @@
+# Curso Python #07 - Operadores Aritméticos
