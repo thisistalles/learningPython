@@ -1,2 +1,5 @@
-# 1.- Conversor de dias para segundos
-**Peça ao usuário para inserir um número de dias e converta-o em segundos.**
+# 7.- Idade
+
+**Solicite ao usuário que insira sua data de nascimento e calcule sua idade.**
+
+**Dica: use a biblioteca datetime**
