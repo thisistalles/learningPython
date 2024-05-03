@@ -1,0 +1,2 @@
+# Exercício 5
+**Crie um programa no qual o computador escolhe um número aleatório entre 1 e 100 e depois pede ao usuário que adivinhe o número. Fornece pistas que indicam se o número a ser adivinhado é maior ou menor. Use um loop while até que o usuário adivinhe corretamente.**

@@ -1,21 +1,36 @@
-print('--Caixa Eletrônico--')
-cash = 3000
-
-opcoes = 0
-
-while opcoes != 4:
-
-    print('---Options---: ')
+class Bank:
+    def __init__(self):
+        self.cach = 300
     
-    print('1. check balance')
-    print('2. withdraw')
-    print('3. deposit')
-    print('4. close')
+    def check_balance(self):
+        print(f'your cach: {self.cach}')
 
-    opcoes = input('Selecione uma opção: ')
+    def withdraw(self,value):
+        if not value > self.cach:
+            self.cach -= value
+            self.check_balance()
+            print(f'your withdraw is {value}')
+        else:
+            print("you can't make the withdrawal")
 
-    if opcoes == '4':
-        print('Adeus')
+    def create_deposit(self,value):
+        self.cach += value
+        self.check_balance()
+
+bank = Bank()
+
+while True:
+    print("\n-Enter 1 to check balance\n-Enter 2 to withdraw\n-Enter 3 to create deposit\n-Enter 4 to exit")
+    option = int(input("\n> "))
+
+    if option == 1:
+        bank.check_balance()
+    elif option == 2:
+        value = int(input("Enter a withdrawal amount: "))
+        bank.withdraw(value)
+    elif option == 3:
+        value = int(input("Enter a deposit amount: "))
+        bank.create_deposit(value)
+    elif option == 4:
         break
-
-##Em fase de acabamento
+#thiscl
