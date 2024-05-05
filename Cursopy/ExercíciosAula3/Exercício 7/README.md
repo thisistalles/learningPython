@@ -1,2 +1,0 @@
-# Exercício 7
-**Projete um programa que simule as operações de um caixa eletrônico. Permite ao usuário fazer depósitos, saques e consultar saldo. Use loops while para manter a interação até que o usuário decida sair.**
